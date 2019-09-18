@@ -1,0 +1,23 @@
+{
+  "name": "w7d3hw-marsmission",
+  "version": "1.0.0",
+  "description": "Week7Day3 hw",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanPPitts/W7D3HW-MarsMission.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanPPitts/W7D3HW-MarsMission/issues"
+  },
+  "homepage": "https://github.com/RyanPPitts/W7D3HW-MarsMission#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}

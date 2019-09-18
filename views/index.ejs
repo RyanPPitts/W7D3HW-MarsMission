@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+ <header>
+
+    <!-- site-wide header -->
+    <h1>Mars Missions <!-- site name --></h1>
+    <p> Check out the Mars Missions by clicking on the links below.  
+    Each link shows a EJS view with all the mission data.</p>
+
+  </header>
+
+   <h1> Missions pages </h1>
+
+  <% missions.forEach(function(movie, index){%>
+  <div>
+  <h4><a href="/mars-missions/<%=index%>"></a></h4>
+  </div>
+ <% }) %>
+
+  <main>
+    <ul>
+    <li> Curiosity Mission <a href="http://localhost:3000/mars-missions/0"> </li>
+    <li> Opportunity Mission <a href="http://localhost:3000/mars-missions/1"> </li>
+    <li> Rosetta Mission <a href="http://localhost:3000/mars-missions/2">  </li>
+    <li> Sojourner Mission <a href="http://localhost:3000/mars-missions/3"> </li>
+    <li> Spirit Mission <a href="http://localhost:3000/mars-missions/4"> </li>
+    </ul>
+  </main>
+
+  <nav>
+    <!-- site-wide navigation -->
+  </nav>
+
+  <footer>
+    <!-- site-wide footer -->
+  </footer>
+
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  </body>
+</html>
